@@ -3,17 +3,23 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0;
+    padding: 0;
+
 }
 
 .cont-header{
     display: flex;
     background-color: #1F2937;
     padding: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header{
     color: #F9FAF8;
     font-size: 24px;
+    margin-left: 20px;
 }
 a,
 .img1,
@@ -30,11 +36,29 @@ ul{
     display: flex;
     list-style: none;
     gap: 10px;
+    margin-right: 50px;
+}
+
+.hero,
+.action-block,
+.pics-block,
+.txt-block{
+    display: flex;
+    flex:1;
+    overflow: auto;
 }
 
 .hero {
-    display: flex;
     background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main,
+.secondary{
+    display: flex;
+    padding: 10px;
 }
 
 .main{
@@ -43,3 +67,21 @@ ul{
     font-size: 48px;
 }
 
+.placeholder{
+    background-color: grey;
+    align-items: stretch;
+}
+
+.picsblock{
+
+}
+
+.txt-block{
+    background-color: #E5E7EB;
+}
+
+.action-block{
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 50px;
+}
