@@ -1,0 +1,45 @@
+body{
+    font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cont-header{
+    display: flex;
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+.header{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+a,
+.img1,
+.secondary{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.main{
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
