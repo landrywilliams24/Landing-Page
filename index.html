@@ -5,30 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Flexbox that contains header content -->
     <div class="cont-header">
-        <div class="header"> Header Logo </div>
-        <ul>
-            <li><a href="#">Header link one</a></li>
-            <li><a href="#">Header link two</a></li>
-            <li><a href="#">Header link three</a></li>
-         </ul>
+        <div class="flex-header">
+            <div class="header-logo"> Header Logo </div>
+        </div>
+        <div class="header-list">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Buildings</a></li>
+                <li><a href="#">Skylines</a></li>
+            </ul>
+        </div>
     </div>
     <div class="hero">   
         <div class="content">
-            <div class="main">This website is awesome</div>
-            <div class="secondary">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
-            <button>Sign up</button>
+            <div class="main">Architecture is awesome</div>
+            <div class="secondary">This website showcases beautitful pictures of architecture. Isn't that awesome?</div>
+            <button class="button">Sign up</button>
         </div>
-        <div class="placeholder">
-            <div class="img1">This is a placeholder for an image</div>
+        <div class="img">
+            <img src="../Landing-Page/imgs/architecture-1.jpg" alt="">
         </div>
     </div>
     <div class="pics-block">
-        Some random information
+        <div class="title">Architecture!</div>
+        <div class="container">
+          <div class="pic">
+            <img src="./imgs/architecture-2.jpg" alt="">
+            <div class="text">This is architecture.</div>
+          </div>
+          <div class="pic">
+            <img src="./imgs/architecture-3.jpg" alt="chili">
+            <div class="text">I just love architecture. Isn't it cool?</div>
+          </div>
+          <div class="pic">
+            <img src="./imgs/architecture-4.jpg" alt="pepper">
+            <div class="text">Such architecture, so cool, wow.</div>
+          </div>
+          <div class="pic">
+            <img src="./imgs/architecture-5.jpg" alt="saffron">
+            <div class="text">I just love buildings.</div>
+          </div>
+        </div>
     </div>
     <div class="txt-block">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi quis hendrerit dolor. Non tellus orci ac auctor augue.
