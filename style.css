@@ -48,8 +48,9 @@ ul{
 .hero {
     background-color: #1F2937;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 80px;
+    gap: 50px;
 }
 
     
@@ -57,6 +58,7 @@ ul{
 .secondary{
     display: flex;
     padding: 10px;
+    max-width: 400px;
     
 }
 
@@ -127,7 +129,11 @@ ul{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 150px;
+    padding: 100px;
+}
+
+p{
+    
 }
 
 .action-block{
