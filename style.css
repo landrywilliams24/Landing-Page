@@ -111,8 +111,6 @@ ul{
     max-width: 300px;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: ;
-
 }
 
 .pic img{
@@ -122,6 +120,14 @@ ul{
 
 .txt-block{
     background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 150px;
 }
 
 .action-block{
