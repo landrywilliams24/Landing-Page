@@ -20,6 +20,7 @@ body{
     font-size: 24px;
     margin-left: 100px;
 }
+
 a,
 .secondary{
     color: #E5E7EB;
@@ -54,8 +55,8 @@ ul{
 }
 
     
-.main,
-.secondary{
+.content .main,
+.content .secondary{
     display: flex;
     padding: 10px;
     max-width: 400px;
@@ -98,7 +99,7 @@ ul{
 
 }
 
- .container{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,13 +133,31 @@ ul{
     padding: 100px;
 }
 
-p{
-    
-}
-
 .action-block{
     background-color: #3882F6;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 100px 200px;
+    gap: 150px;
 }
 
+.action-block .main{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.action-block .button{
+    border: #F9FAF8;
+    border: solid;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: #F9FAF8;
+}
 
